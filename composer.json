@@ -1,0 +1,21 @@
+{
+    "name": "ruman63/laravel-preset",
+    "description": "Ruman Saleem's Laravel Frontend Preset",
+    "keywords": ["laravel", "preset", "tailwind"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelPreset\\PresetServiceProvider"
+            ]
+        }
+    }
+}

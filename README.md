@@ -13,7 +13,7 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/ruman63/laravel-tailwind-preset"
+        "url": "https://github.com/rumansaleem/laravel-tailwind-preset"
     }
 ]
 ```
@@ -21,7 +21,7 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 Next, run this command to add the preset to your project:
 
 ```
-composer require ruman63/laravel-tailwind-preset --dev
+composer require rumansaleem/laravel-tailwind-preset --dev
 ```
 
 Finally, apply the scaffolding by running:
